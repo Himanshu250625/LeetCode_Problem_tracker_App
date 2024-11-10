@@ -1,50 +1,64 @@
-LeetCode Question Tracker App
-This is a LeetCode Question Tracker App built using React.js. The app helps you track your progress on LeetCode questions, marking questions as completed and organizing your practice with ease. It includes features such as a dark/light mode toggle, links redirecting to LeetCode, and a checkbox for tracking solved questions.
+<h1 align="center" style="font-size: 2.5em;">LeetCode Question Tracker App</h1>
 
-Features
-Track Progress: Easily mark questions as solved or unsolved.
-Links to LeetCode: Each question has a link redirecting you to LeetCode for quick access.
-Dark/Light Mode Toggle: Customize the UI with a switchable dark and light mode.
-Beautiful UI: A clean and user-friendly interface for a seamless experience.
-Separate Questions File: Questions are stored in a separate file for code organization and maintainability.
-Tech Stack
-Frontend: React.js, CSS (Tailwind/DaisyUI recommended for styling)
-Backend (Optional): Can integrate with Node.js for a full-stack solution
-State Management: React state and Context API if needed
-Getting Started
+<p align="center">
+  <i>A sleek and intuitive app to track your progress on LeetCode questions!</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-v18.2.0-blue?style=for-the-badge" alt="React">
+  <img src="https://img.shields.io/badge/TailwindCSS-^3.0-green?style=for-the-badge" alt="TailwindCSS">
+</p>
+
+---
+
+<p style="font-size: 1.2em;">The <b>LeetCode Question Tracker App</b> is a React.js application that helps you stay organized and monitor your progress as you practice coding questions on LeetCode. Featuring a dark/light mode toggle, direct links to LeetCode, and a simple checkbox system to track completed questions, this app is an ideal companion for any coding enthusiast preparing for interviews or leveling up their skills.</p>
+
+## 🚀 Features
+
+<ul style="font-size: 1.1em;">
+  <li><b>Track Progress</b>: Mark questions as solved or unsolved with ease.</li>
+  <li><b>Direct Links to LeetCode</b>: Quickly access each question on LeetCode.</li>
+  <li><b>Dark/Light Mode</b>: Switch between themes for a comfortable user experience.</li>
+  <li><b>Beautiful UI</b>: Clean and user-friendly interface with TailwindCSS and DaisyUI.</li>
+  <li><b>Modular Code Structure</b>: Questions are stored in a separate file for easy maintenance.</li>
+</ul>
+
+## 🛠️ Tech Stack
+
+<table>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>React.js, Tailwind CSS, DaisyUI</td>
+  </tr>
+  <tr>
+    <td><b>Optional Backend</b></td>
+    <td>Node.js (for a full-stack solution)</td>
+  </tr>
+  <tr>
+    <td><b>State Management</b></td>
+    <td>React State, Context API</td>
+  </tr>
+</table>
+
+## 📦 Getting Started
+
 To get a local copy up and running, follow these steps:
 
-Prerequisites
-Make sure you have Node.js and npm installed.
-Installation
-Clone the repository:
+### Prerequisites
 
-bash
-Copy code
+Ensure you have **Node.js** and **npm** installed.
+
+### Installation
+
+```bash
+# Clone the repository
 git clone https://github.com/yourusername/leetcode-question-tracker.git
-Navigate to the project directory:
+
+# Navigate to the project directory
 cd leetcode-question-tracker
-Install the dependencies:
 
-bash
-Copy code
+# Install dependencies
 npm install
-Run the app:
 
-bash
-Copy code
+# Run the app
 npm start
-The app should now be running on http://localhost:3000.
-
-Usage
-Adding Questions: You can add questions in a separate file (e.g., questions.js) to keep the main component clean.
-Tracking Progress: Use the checkboxes to mark questions as completed. Your progress is saved locally.
-Dark/Light Mode: Toggle between dark and light themes for a comfortable viewing experience.
-Screenshots
-Include screenshots of your app here to showcase the UI and features.
-
-Future Enhancements
-Filter and Search: Add a search bar and filters to quickly find specific questions.
-Category Tags: Classify questions by difficulty level, topic, etc.
-Analytics: Track stats like number of questions completed, average time per question, etc.
-Backend Integration: Optionally, save progress on a server with user authentication.
